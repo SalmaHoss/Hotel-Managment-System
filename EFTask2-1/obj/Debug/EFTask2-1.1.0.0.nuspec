@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>EFTask2-1</id>
+    <version>1.0.0</version>
+    <authors>EFTask2-1</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="microsoft.entityframeworkcore.sqlserver" version="6.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="E:\Studing\ITI\C#\Entity Framework\Day15\EFTask2-1\EFTask2-1\bin\Debug\net6.0-windows\EFTask2-1.runtimeconfig.json" target="lib\net6.0-windows7.0\EFTask2-1.runtimeconfig.json" />
+    <file src="E:\Studing\ITI\C#\Entity Framework\Day15\EFTask2-1\EFTask2-1\bin\Debug\net6.0-windows\EFTask2-1.dll" target="lib\net6.0-windows7.0\EFTask2-1.dll" />
+  </files>
+</package>
